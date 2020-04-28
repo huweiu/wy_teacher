@@ -1,0 +1,4 @@
+<view class='head_img' bindtap='upShopLogo'>
+  <text>头像</text>
+  <view class='img'><image src='{{userimg}}'></image></view>
+</view>

@@ -1,0 +1,21 @@
+.teacherfirst{
+  padding-top: 200rpx;
+}
+
+.teacherfirst .title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40rpx;
+}
+
+.teacherfirst .btn_contain{
+  width: 100%;
+  height: 400rpx;
+   padding-top: 80rpx; 
+}
+
+.teacherfirst .btn_contain .btn{
+  width: 30%; 
+}
+

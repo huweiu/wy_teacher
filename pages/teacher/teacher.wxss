@@ -1,0 +1,61 @@
+.page{
+  width: 100%;
+  height: 100%;
+}
+
+.logo{
+  margin-top: 100rpx;
+  height: 150rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo image{
+  width: 150rpx;
+  height: 150rpx;
+}
+
+.title{
+  margin-top: 80rpx;
+  text-align: center;
+}
+
+.wechat_login{
+  margin-top: 80rpx;  
+  text-align: center;
+}
+
+.wechat_login .wc_login{
+   width: 55%; 
+}
+
+.regist{
+  margin-top: 80rpx;  
+  text-align: center;
+}
+
+.regist .regist_btn{
+   width: 55%; 
+}
+
+.protol{
+  width: 100%;
+  height: 500rpx;
+  display: flex;
+  justify-content: center;
+}
+
+.protol .protol_content{
+  width: 500rpx;
+  height: 300rpx;
+  font-size: 32rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .protol .protol_content .check{
+  width: 300px;
+} */

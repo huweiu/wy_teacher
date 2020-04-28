@@ -1,0 +1,26 @@
+<view class='page'>
+  <view class='logo'>
+    <image src="../images/avatar/1.png"></image>
+  </view>
+  <view class='title'>
+    <text class='title_content'>欢迎来到乌鸦老师</text>
+  </view>
+  <view class='wechat_login'>
+    <button class='wc_login' type="primary" >微信快速登录</button>
+  </view>
+  <view class='regist'>
+    <button class='regist_btn' type="default" bindtap="gotoTeacherReg">普通注册</button>
+  </view>
+  <view class='protol'>
+    <view class='protol_content'>
+      <view>
+        <radio-group class="radio-group" bindchange="radioChange">
+          <radio :checked="isChecked"></radio>我已阅读并同意
+        </radio-group>      
+      </view>
+      <view><text>《用户协议》</text></view>
+      <view><text>《隐私协议》</text></view>
+      <view><text>《儿童隐私政策》</text></view>
+    </view>
+  </view>
+</view>

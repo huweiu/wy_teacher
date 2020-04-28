@@ -1,0 +1,8 @@
+<view class='teacherfirst'>
+  <view class='title'>
+    <text>您好!老师，请先注册然后再使用</text>
+  </view>
+  <view class='btn_contain'>
+    <button class='btn' type='primary' bindtap="gotoTeacherReg">注册</button>
+  </view>
+</view>

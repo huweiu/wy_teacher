@@ -1,0 +1,10 @@
+<view>
+    <view class='reg_first'>
+      <view class='teacher'>
+        <button type='primary' bindtap="goTeacherRegPage">我是老师</button>
+      </view>
+      <view class='parents'>
+        <button type='warn' bindtap="goParentsRegPage">我是家长</button>
+      </view>
+    </view>
+</view>
