@@ -1,4 +1,30 @@
 <view class='head_img' bindtap='upShopLogo'>
-  <text>头像</text>
-  <view class='img'><image src='{{userimg}}'></image></view>
+  <view class='avatar'>
+    <image src='../images/avatar/0.png'></image>
+  </view> 
+  <view class='tecRegMsg'>
+    <form bindsubmit="reg">
+      <view class='username'>姓名：<input type="text" name="username" /></view>
+      <view class='sex'>性别：
+        <radio-group name="radio-group">
+          <label><radio value="male"/>男</label>
+          <label><radio value="female"/>女</label>
+        </radio-group>
+      </view>
+      <view class='idenify'>身份证号：<input type="text" name="identify"/></view>   
+      <view class="birth">出生年月：
+        <picker mode="date" value="{{date}}" start="1900-01-01" end="9999-1-01" bindchange="bindDateChange">  
+          <view class="picker">{{dates}}</view>  
+        </picker>  
+      </view>
+      <view>学科大类：</view>
+      <view>学科:</view>
+      <view>学段:</view>
+      <view>职称:</view>
+      <view>相关证件:</view>
+      <view>联系方式:</view>
+      <view>常住地址:</view>
+      <view><button type="primary" form-type="submit">注册</button></view>
+    </form>
+  </view>
 </view>
