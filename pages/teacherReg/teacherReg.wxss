@@ -36,3 +36,16 @@
 .tecRegMsg .birth picker{
   border: 1px solid #999;
 }
+
+.btn{
+  width: 100%;  
+  background-color: pink;
+}
+
+.btn button{
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin-top: 50px;
+}

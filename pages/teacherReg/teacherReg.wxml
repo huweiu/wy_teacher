@@ -1,7 +1,7 @@
 <view class='head_img' bindtap='upShopLogo'>
   <view class='avatar'>
     <image src='../images/avatar/0.png'></image>
-  </view> 
+  </view>
   <view class='tecRegMsg'>
     <form bindsubmit="reg">
       <view class='username'>姓名：<input type="text" name="username" /></view>
@@ -24,7 +24,13 @@
       <view>相关证件:</view>
       <view>联系方式:</view>
       <view>常住地址:</view>
-      <view><button type="primary" form-type="submit">注册</button></view>
+      <view>
+        <radio-group name="radio-group">
+          <label><radio value="ok"/></label>
+        </radio-group>
+        我已阅读乌鸦老师。。。。
+      </view>
+      <view class='btn'><button type="primary" form-type="submit">注册</button></view>
     </form>
   </view>
 </view>
