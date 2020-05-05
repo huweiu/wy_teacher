@@ -1,17 +1,18 @@
 {
-  "pages":[
-    "pages/teacherReg/teacherReg",
-    "pages/userRegist/regist",
-    "pages/index/index",
-    "pages/logs/logs",
-    "pages/parents/parents",
-    "pages/teacher/teacher",
-    "pages/teacherfirst/teacherfirst"    
-  ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "乌鸦老师",
-    "navigationBarTextStyle":"black"
-  }
+    "pages": [
+        "pages/parents/parents",
+        "pages/teacherReg/teacherReg",
+        "pages/userRegist/regist",
+        "pages/index/index",
+        "pages/logs/logs",
+        "pages/teacher/teacher",
+        "pages/teacherfirst/teacherfirst"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "乌鸦老师",
+        "navigationBarTextStyle": "black"
+    },
+    "sitemapLocation": "sitemap81.json"
 }

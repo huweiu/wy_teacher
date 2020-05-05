@@ -9,9 +9,11 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "1.9.94",
-	"appid": "wx94ddaf879f97c8c4",
+	"appid": "wx183ec8953287a721",
 	"projectname": "wy_teacher2",
 	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
 	"condition": {
 		"search": {
 			"current": -1,
