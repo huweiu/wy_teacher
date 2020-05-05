@@ -17,10 +17,19 @@
           <view class="picker">{{dates}}</view>  
         </picker>  
       </view>
-      <view>学科大类：
-        <view class="select_one" bindtap="mySelect" data-name="重庆分店">重庆分店</view>
-        <view class="select_one" bindtap="mySelect" data-name="东莞南城分店">东莞南城分店</view>
-        <view class="select_one" bindtap="mySelect" data-name="东莞总店">东莞总店</view>
+      <view class='subject'>学科大类：
+        <view class='list-msg'>
+         <view class='list-msg2' bindtap='bindShowMsg'>
+          <text>{{tihuoWay}}</text>
+          <image style='height:50rpx;width:50rpx;color:#ccc;' src='../images/icon/down.png'></image>
+        </view> 
+        <!-- 下拉需要显示的列表 -->
+         <view class="select_box" wx:if="{{select}}">
+          <view class="select_one" bindtap="mySelect" data-name="语文">语文</view>
+          <view class="select_one" bindtap="mySelect" data-name="数学">数学</view>
+          <view class="select_one" bindtap="mySelect" data-name="英语">英语</view>
+        </view> 
+      </view> 
       </view>
       <view>学科:</view>
       <view>学段:</view>
@@ -36,4 +45,29 @@
       <view class='btn'><button type="primary" form-type="submit">注册</button></view>
     </form>
   </view>
+
+   <view class='list-msg'>
+    <!-- <view class='list-msg1'>
+        <text>商品金额</text>
+        <text>￥99.00</text>
+    </view> -->
+    <!--下拉框  -->
+    <!-- <view class='list-msg2' bindtap='bindShowMsg'>
+        <text>{{tihuoWay}}</text>
+        <image style='height:20rpx;width:20rpx;' src='/images/down.png'></image>
+    </view> -->
+    <!-- <view class='list-msg1'>
+        <text>运费</text>
+        <text></text>免邮</view>
+    <view class='list-msg1'>
+        <text>实际付款</text>
+        <text style='color:red'>￥99.00</text>
+    </view> -->
+    <!-- 下拉需要显示的列表 -->
+    <!-- <view class="select_box" wx:if="{{select}}">
+        <view class="select_one" bindtap="mySelect" data-name="重庆分店">重庆分店</view>
+        <view class="select_one" bindtap="mySelect" data-name="东莞南城分店">东莞南城分店</view>
+        <view class="select_one" bindtap="mySelect" data-name="东莞总店">东莞总店</view>
+    </view> -->
+  </view> 
 </view>
