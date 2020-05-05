@@ -26,14 +26,18 @@
 .tecRegMsg .username,
 .tecRegMsg .sex,
 .tecRegMsg .idenify,
-.tecRegMsg .birth {
+.tecRegMsg .birth,
+.tecRegMsg .professor,
+.tecRegMsg .contact {
   display: flex;
   margin-bottom: 10rpx;
 }
 
 .tecRegMsg .username input,
 .tecRegMsg .idenify input,
-.tecRegMsg .birth picker{
+.tecRegMsg .birth picker,
+.tecRegMsg .professor input,
+.tecRegMsg .contact input{
   border: 1px solid #999;
 }
 

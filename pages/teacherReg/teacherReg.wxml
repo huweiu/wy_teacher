@@ -17,18 +17,21 @@
           <view class="picker">{{dates}}</view>  
         </picker>  
       </view>
-      <view>学科大类：</view>
+      <view>学科大类：
+        <view class="select_one" bindtap="mySelect" data-name="重庆分店">重庆分店</view>
+        <view class="select_one" bindtap="mySelect" data-name="东莞南城分店">东莞南城分店</view>
+        <view class="select_one" bindtap="mySelect" data-name="东莞总店">东莞总店</view>
+      </view>
       <view>学科:</view>
       <view>学段:</view>
-      <view>职称:</view>
+      <view class='professor'>职称: <input type="text" name="professor"/></view>
       <view>相关证件:</view>
-      <view>联系方式:</view>
+      <view class='contact'>联系方式:<input type="text" name="contact"/></view>
       <view>常住地址:</view>
       <view>
         <radio-group name="radio-group">
-          <label><radio value="ok"/></label>
-        </radio-group>
-        我已阅读乌鸦老师。。。。
+          <label><radio value="ok"/>我已阅读乌鸦老师。。。。</label>
+        </radio-group>        
       </view>
       <view class='btn'><button type="primary" form-type="submit">注册</button></view>
     </form>
