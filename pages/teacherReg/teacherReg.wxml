@@ -20,16 +20,16 @@
       <view class='subject'>学科大类：
         <view class='list-msg'>
          <view class='list-msg2' bindtap='bindShowMsg'>
-          <text>{{tihuoWay}}</text>
-          <image style='height:50rpx;width:50rpx;color:#ccc;' src='../images/icon/down.png'></image>
-        </view> 
+            <text>{{tihuoWay}}</text>
+            <image style='height:50rpx;width:50rpx;color:#ccc;' src='../images/icon/down.png'></image>
+          </view> 
         <!-- 下拉需要显示的列表 -->
          <view class="select_box" wx:if="{{select}}">
-          <view class="select_one" bindtap="mySelect" data-name="语文">语文</view>
-          <view class="select_one" bindtap="mySelect" data-name="数学">数学</view>
-          <view class="select_one" bindtap="mySelect" data-name="英语">英语</view>
+            <view class="select_one" bindtap="mySelect" data-name="语文">语文</view>
+            <view class="select_one" bindtap="mySelect" data-name="数学">数学</view>
+            <view class="select_one" bindtap="mySelect" data-name="英语">英语</view>
+          </view> 
         </view> 
-      </view> 
       </view>
       <view>学科:</view>
       <view>学段:</view>
