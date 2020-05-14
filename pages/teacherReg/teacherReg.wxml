@@ -47,27 +47,6 @@
   </view>
 
    <view class='list-msg'>
-    <!-- <view class='list-msg1'>
-        <text>商品金额</text>
-        <text>￥99.00</text>
-    </view> -->
-    <!--下拉框  -->
-    <!-- <view class='list-msg2' bindtap='bindShowMsg'>
-        <text>{{tihuoWay}}</text>
-        <image style='height:20rpx;width:20rpx;' src='/images/down.png'></image>
-    </view> -->
-    <!-- <view class='list-msg1'>
-        <text>运费</text>
-        <text></text>免邮</view>
-    <view class='list-msg1'>
-        <text>实际付款</text>
-        <text style='color:red'>￥99.00</text>
-    </view> -->
-    <!-- 下拉需要显示的列表 -->
-    <!-- <view class="select_box" wx:if="{{select}}">
-        <view class="select_one" bindtap="mySelect" data-name="重庆分店">重庆分店</view>
-        <view class="select_one" bindtap="mySelect" data-name="东莞南城分店">东莞南城分店</view>
-        <view class="select_one" bindtap="mySelect" data-name="东莞总店">东莞总店</view>
-    </view> -->
+    
   </view> 
 </view>
