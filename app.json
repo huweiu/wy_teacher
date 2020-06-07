@@ -1,7 +1,7 @@
 {
     "pages": [
-        "pages/parents/parents",
         "pages/teacherReg/teacherReg",
+        "pages/parents/parents",        
         "pages/userRegist/regist",
         "pages/index/index",
         "pages/logs/logs",
